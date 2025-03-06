@@ -1,0 +1,38 @@
+/*Esto es un comentario de una o varias lineas*/
+
+body{
+    background-color: darkblue;
+}
+
+.pDiferente{
+    color: aquamarine;
+}
+
+.negritaSemantica{
+    color: aquamarine;
+}
+
+/*Colores*/
+/*Nombre del color*/
+
+/*Codigo Hexadecimal*/
+.pJd{
+    color: #ffdf5b;
+}
+
+.colorRGB{
+    color: rgb(255, 91, 215);
+}
+
+.divRGBA{
+    width: 50%;
+    background-color: rgb(255, 22, 79, 0.5);
+}
+
+.divHSL{
+    width: 50%;
+    background-color: hsl(175, 89%, 44%);
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}

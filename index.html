@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Principal</title>
+
+    <!--estilo embebido-->
+    <style>
+        p {
+            /* aplicar colores al texto */
+            color: yellowgreen;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -24,9 +34,17 @@
         <img src="img/btn-servicio.png" alt="no_carga_mensaje" title="Ir a pagina Servicios" width="20px">
     </a>
 
-    <p>Bienvenidos a la pagina principal</p>
+    <p class="pDiferente">Bienvenidos a la pagina principal</p>
+
+    <div class="divRGBA">
+        <p style="color: white;">RGBA Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aperiam! Repellendus vitae deleniti harum assumenda recusandae tempore. Laboriosam, minima voluptates? Sit aliquam, hic delectus sed distinctio perspiciatis sint nesciunt id?</p>
+    </div>
+
+    <div class="divHSL">
+        <p style="color: white;">HSL Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aperiam! Repellendus vitae deleniti harum assumenda recusandae tempore. Laboriosam, minima voluptates? Sit aliquam, hic delectus sed distinctio perspiciatis sint nesciunt id?</p>
+    </div>
     <!-- Etiquetas de texto-->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p class="pJd">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Maiores repudiandae alias deserunt magnam ad sunt dolore 
         voluptatem aliquid impedit odio, ducimus, cum reprehenderit? 
         Excepturi quos esse cupiditate accusamus omnis eos.<br></p>
@@ -39,13 +57,13 @@
     </p>
 
     <!-- Negrita sin peso semantico-->
-    <b>Negrita</b>
+    <b class="pDiferente">Negrita</b>
     <br>
     <!-- Negrita con peso semantico-->
-    <strong>Negrita con peso semantico</strong>
+    <strong class="negritaSemantica">Negrita con peso semantico</strong>
     <br> <br>
     <!-- Cursiva -->
-    <i>Text en cursiva</i>
+    <i class="colorRGB">Text en cursiva</i>
     <br>
     <!-- Cursiva con semantica -->
     <em>Cursiva con peso semantico</em>
@@ -222,6 +240,8 @@
 
         <!-- Insertar video por API dew youtube-->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/O4kSKPTb8ok?si=B8lTHd9C8OV-7DcL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+        <!--clase miercoles-->
     </div>
 </body>
 </html>
